@@ -18,14 +18,16 @@ Python script to process images and PDFs in a directory by removing duplicates, 
 ### Setup:
 1. Clone the repository.
 2. Install the required libraries:
+   
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your [Cohere API key](https://cohere.ai/) in a `.env` file:
+4. Set up your [Cohere API key](https://cohere.ai/) in a `.env` file:
+   
    ```
    COHERE_API_KEY=your_cohere_api_key_here
    ```
-4. Run the script using the command-line options:
+6. Run the script using the command-line options:
    - Remove duplicates: `python media_file_processor.py "path/to/your/directory" --remove-dupes`
    - Rename files: `python media_file_processor.py "path/to/your/directory" --rename-files`
    - Perform both operations: `python media_file_processor.py "path/to/your/directory" --both`
